@@ -44,7 +44,7 @@ let make = () => {
         {" + "->React.string}
         <a href="https://github.com/rust-lang/rust-analyzer" target="_blank">{"rust-analyzer"->React.string}</a>
         {" + "->React.string}
-        <a href="https://marketplace.visualstudio.com/items?itemName=chenglou92.rescript-vscode" target="_blank">{"ReScript"->React.string}</a>
+        <a href="https://github.com/rescript-lang/rescript-vscode" target="_blank">{"ReScript"->React.string}</a>
     </p>
   
     <div className="row">
