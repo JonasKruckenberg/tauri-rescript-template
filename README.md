@@ -1,5 +1,7 @@
 # Tauri + ReScript + React
 
+![App Screenshot](./Screenshot.png)
+
 This template should help get you started developing with Tauri, ReScript, and React in Vite.
 
 ## Recommended IDE Setup
