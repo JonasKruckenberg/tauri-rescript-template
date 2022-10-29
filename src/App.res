@@ -33,7 +33,20 @@ let make = () => {
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a>
     </div>
+    
     <p> {"Click on the Tauri, Vite, ReScript, and React logos to learn more."->React.string} </p>
+  
+    <p>
+        {"Recommended IDE setup: "->React.string}
+        <a href="https://code.visualstudio.com/" target="_blank">{"VS Code"->React.string}</a>
+        {" + "->React.string}
+        <a href="https://github.com/tauri-apps/tauri-vscode" target="_blank">{"Tauri"->React.string}</a>
+        {" + "->React.string}
+        <a href="https://github.com/rust-lang/rust-analyzer" target="_blank">{"rust-analyzer"->React.string}</a>
+        {" + "->React.string}
+        <a href="https://marketplace.visualstudio.com/items?itemName=chenglou92.rescript-vscode" target="_blank">{"ReScript"->React.string}</a>
+    </p>
+  
     <div className="row">
       <div>
         <input
