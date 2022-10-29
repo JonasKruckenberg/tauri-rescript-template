@@ -1,0 +1,28 @@
+{
+  "name": "{{package_name}}",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "clean": "rescript clean -with-deps",
+    "format": "rescript format -all"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@tauri-apps/api": "^1.1.0",
+    "@rescript/react": "^0.11.0-rc.2",
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "rescript-webapi": "^0.6.1"
+  },
+  "devDependencies": {
+    "@jihchi/vite-plugin-rescript": "^4.1.0",
+    "@vitejs/plugin-react": "^2.2.0",
+    "rescript": "^10.0.1",
+    "vite": "^3.2.0"
+  }
+}

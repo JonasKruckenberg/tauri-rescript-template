@@ -1,0 +1,11 @@
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.rescript:hover {
+  filter: drop-shadow(0 0 2em #e6484f);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
